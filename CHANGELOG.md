@@ -51,6 +51,3 @@ El formato sigue las recomendaciones de **Keep a Changelog** y **Semantic Versio
 - Correcciones menores de estabilidad.
 
 ---
-
-- 
-```
