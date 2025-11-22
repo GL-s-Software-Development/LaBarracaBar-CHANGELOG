@@ -1,29 +1,56 @@
-# Cambios recientes
+# Changelog  
+Estos son todos los cambios relevantes realizados en *Argentina Bar*.  
+El formato sigue las recomendaciones de **Keep a Changelog** y **Semantic Versioning**.
 
-## v1.3.1 - 2025-11-22
-├── Se agregó un sistema para llevar el control de Stock del inventario.
-├── Se habilitó poder editar el perfil.
-└── Se mejoró el sistema de Mesas:
-  -> La cantidad del producto en la mesa no superará el stock actual.
-├── Se añadió un apartado para crear/editar/eliminar categorías.
-├── Se implementó un sistema para la recuperación de contraseñas.
-└── Se implementó un sistema para la gestión de usuarios:
-  -> El usuario con rol Administrador podrá crear/editar/eliminar cuentas del sistema.
+---
 
-## v1.3.0 - 2025-10-1
-├── Se aumentó la seguridad encriptando las contraseñas.
-├── Se corregió el problema al deslogear.
-└── Mejoras al flujo del sistema de notificaciones.
+## **[1.3.1] — 2025-11-22**  
+### **Added**
+- Módulo completo de **Control de Stock** para gestión y seguimiento del inventario.  
+- Funcionalidad para **editar el perfil de usuario**.  
+- Sección de **Gestión de Categorías** (crear, editar y eliminar).  
+- Sistema de **recuperación de contraseñas** con validación segura.  
+- Sistema de **gestión de usuarios**:  
+  - Los administradores pueden crear, editar y eliminar cuentas.
 
-## v1.2.0 - 2025-06-19
-├── Se agregó gráfico de análisis de ventas.
-├── Se mejoró la facturación de mesas.
-├── Se agregó el sistema de ticketera.
-└── Se agregó sistemas de filtros en:
-  -> Gestionar Productos
-  -> Editar Mesas
-  -> Crear Mesas
+### **Improved**
+- Sistema de **Gestión de Mesas**:  
+  - La cantidad solicitada de productos no puede superar el stock disponible.
 
-## v1.1.0 - 2025-06-15
-├── Soporte para impresión térmica.
-└── Corrección de errores menores.
+---
+
+## **[1.3.0] — 2025-10-01**  
+### **Improved**
+- Seguridad reforzada mediante **encriptación de contraseñas**.
+- Mejoras generales en el flujo del sistema de **notificaciones**.
+
+### **Fixed**
+- Corrección del error que impedía realizar el proceso de logout correctamente.
+
+---
+
+## **[1.2.0] — 2025-06-19**  
+### **Added**
+- Gráficos avanzados para el **Análisis de Ventas**.  
+- Integración con **impresora térmica** para emisión de tickets.
+
+### **Improved**
+- Flujo de **facturación de mesas** optimizado.  
+- Nuevos **filtros** incorporados en:  
+  - Gestión de Productos  
+  - Editar Mesas  
+  - Crear Mesas
+
+---
+
+## **[1.1.0] — 2025-06-15**  
+### **Added**
+- Soporte general para **impresión térmica**.
+
+### **Fixed**
+- Correcciones menores de estabilidad.
+
+---
+
+- 
+```
