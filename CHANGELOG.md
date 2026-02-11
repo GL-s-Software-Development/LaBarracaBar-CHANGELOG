@@ -4,6 +4,19 @@ El formato sigue las recomendaciones de **Keep a Changelog** y **Semantic Versio
 
 ---
 
+## **[1.3.2] — 2026-02-10**  
+### **Added**
+- Sección de **Gestionar Pedidos** para delivery:
+  - Caja puede crear las ordenes de pedidos que recibe para delivery.
+- Generación de Reportes de ventas.  
+
+### **Improved**
+- Sistema de **Notificaciones**:  
+  - Se mejoró el sistema de notificaciones para mozo y cocina.
+- Automatización de código para una mejor estabilidad.
+
+---
+
 ## **[1.3.1] — 2025-11-22**  
 ### **Added**
 - Módulo completo de **Control de Stock** para gestión y seguimiento del inventario.  
